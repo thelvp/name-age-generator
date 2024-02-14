@@ -8,7 +8,7 @@ const ageText = document.getElementById("your-age");
 const displayAge = (event) => {
   event.preventDefault();
   const firstName = document.getElementById("first-name").value;
-  const url = `https://api.agify.io?name=${firstName}`;
+  const url = `https://api.agify.io/?name=${firstName}`;
   fetch(url)
     .then(response => response.json())
     .then((data) => {
