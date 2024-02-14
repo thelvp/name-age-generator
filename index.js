@@ -1,6 +1,5 @@
 // Variables
 
-const agifyApiUrl = `https://api.agify.io/`;
 const form = document.getElementById("fetch-age");
 const ageText = document.getElementById("your-age");
 
